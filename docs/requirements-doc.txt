@@ -1,10 +1,10 @@
 # Documentation build dependencies for ncs-zigbee Add-on
 
 # Sphinx core - pinned for theme compatibility
-sphinx==4.5.0
+sphinx>=5,<8
 
 # Sphinx theme - compatible with sphinx 4.x
-sphinx-ncs-theme==0.7.4
+sphinx-ncs-theme<2.1
 
 # Sphinx extensions
 sphinx-tabs>=3.4
@@ -12,7 +12,7 @@ sphinx-togglebutton>=0.3.2
 sphinx-copybutton>=0.5.2
 
 # Breathe for Doxygen integration
-breathe>=4.30.0
+breathe>=4.35
 
 # Diagram support
 sphinxcontrib-mscgen>=0.6
